@@ -2,8 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/julesmike/stringreverse"
 )
 
 func main() {
-	fmt.Println("Hello World to Github")
+	str := "Hello World to Github"
+	fmt.Println(str)
+	fmt.Println(stringreverse.Reverse(str))
 }
